@@ -10,16 +10,7 @@ The group is governed and coordinated by the Out of Home Advertising Association
 The group authors and publishes open source standards for the data exchanged between the various stakeholders in the advertising signage industries, including Out of Home (OOH), Digital Out of Home (DOOH), Programmatic Digital Out of Home (PrDOOH), in-store retail media, cinema, and other signage contexts in public spaces.
 
 These standards aim to ease collaboration, both within the context of a single campaign and operationally across large networks of signage locations.
-# Context
-Today, there are over 100 different known data models describing advertising signage, with each stakeholder operating from its own definition of properties and characteristics. The same sign location is described differently in each system it's listed in, and so stakeholders must constantly re-map and reconcile data.
 
-**OpenOOH standards give the industry one shared vocabulary.**
-# Benefits
-| Stakeholder          | Benefits of using standardised data formats                                                                                                                                                                                                                                                                                              |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Media Owners         | Simplified syndication of inventory datasets to other stakeholders, including advertisers.<br><br>Improved accuracy and consistency in the representation of signage inventory across multiple platforms.<br><br>Simplified planning, buying, and analysis for advertiser clients can facilitate and improve sales processes and volume. |
-| Advertisers          | More precise discovery, filtering and targeting for campaign delivery locations.<br><br>Clear visibility of each location's capabilities and restrictions.<br><br>Simplified data analysis, as all signage locations share a common descriptive language.                                                                                |
-| Technology Providers | More efficient and consistent machine readability of inventory datasets.<br><br>Native data collaboration with other technical platforms.<br><br>Removal of ambiguity in property definitions.<br><br>Reduced inference within agentic workflows.                                                                                        |
 # Published Standards
 
 ## `signage-properties` (incorporating `venue-taxonomy`)
