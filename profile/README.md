@@ -3,32 +3,30 @@
 </p>
 
 # OpenOOH
-OpenOOH is a multidisciplinary working group of OOH industry professionals, representing the supply, demand, technology, measurement, and operations functions of the industry.
+OpenOOH is a multidisciplinary working group of industry professionals operating in the advertising signage industries, with members representing supply, demand, technology, measurement, and operations functions.
 
 The group is governed and coordinated by the Out of Home Advertising Association of America ([OAAA](https://www.oaaa.org)).
 
 The group authors and publishes open source standards for the data exchanged between the various stakeholders in the advertising signage industries, including Out of Home (OOH), Digital Out of Home (DOOH), Programmatic Digital Out of Home (PrDOOH), in-store retail media, cinema, and other signage contexts in public spaces.
-# Purpose
-OpenOOH standards exist to ease collaboration across the broad range of stakeholders and data platforms operating in the physical advertising industries, both within the context of a single campaign and operationally across large networks of signage locations.
 
+These standards aim to ease collaboration, both within the context of a single campaign and operationally across large networks of signage locations.
+# Context
+Today, there are over 100 different known data models describing advertising signage, with each stakeholder operating from its own definition of properties and characteristics. The same sign location is described differently in each system it's listed in, and so stakeholders must constantly re-map and reconcile data.
+
+**OpenOOH standards give the industry one shared vocabulary.**
 # Benefits
-| Stakeholder          | Benefits of using standardised data formats                                                                                                                                                                                                              |
-| -------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                      | Common                                                                                                                                                                                                                                                   |
-| Media Owners         | Simplified syndication of inventory datasets to other stakeholders, including advertisers.<br><br>Improved accuracy and consistency in the representation of signage inventory across multiple platforms.                                                |
-| Advertisers          | More precise discovery, filtering and targeting for campaign delivery locations.<br><br>Clear visibility of each location's capabilities and restrictions<br><br>Simplified data analysis, as all signage locations share a common descriptive language. |
-| Technology Providers | More efficient and consistent machine readability of inventory datasets.<br><br>Easier "native" collaboration with other technical platforms.<br><br>Removal of ambiguity in property definitions.<br><br>Reduced inference within agentic workflows.    |
+| Stakeholder          | Benefits of using standardised data formats                                                                                                                                                                                                                                                                                              |
+| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Media Owners         | Simplified syndication of inventory datasets to other stakeholders, including advertisers.<br><br>Improved accuracy and consistency in the representation of signage inventory across multiple platforms.<br><br>Simplified planning, buying, and analysis for advertiser clients can facilitate and improve sales processes and volume. |
+| Advertisers          | More precise discovery, filtering and targeting for campaign delivery locations.<br><br>Clear visibility of each location's capabilities and restrictions.<br><br>Simplified data analysis, as all signage locations share a common descriptive language.                                                                                |
+| Technology Providers | More efficient and consistent machine readability of inventory datasets.<br><br>Native data collaboration with other technical platforms.<br><br>Removal of ambiguity in property definitions.<br><br>Reduced inference within agentic workflows.                                                                                        |
 # Published Standards
 
-## [`signage-properties`](https://github.com/openooh/signage-properties) 
-### (incorporating `venue-taxonomy`)
+## `signage-properties` (incorporating `venue-taxonomy`)
 
-The `signage-properties` standard defines various taxonomies and field rules for defining the descriptive properties of signage installations. The standard provides structured definitions of the `venue`, `medium`, `shape`, `structure`, `location`, `viewshed`, `operating-hours`, `dimensions`, `media-attachments`, and `identity`.
+The `signage-properties` standard defines various taxonomies and field rules for  the descriptive properties of signage installations. The standard provides structured definitions of the `venue`, `medium`, `shape`, `structure`, `location`, `viewshed`, `operating-hours`, `dimensions`, `media-attachments`, and `identity`.
 
-## `venue-taxonomy`
-
-`signage-properties` incorporates and supersedes `venue-taxonomy`, which remains in its original repository, scheduled to be archived December 31, 2026. All future updates to `venue` will be within the `signage-properties` repo.
-
+`venue-taxonomy` is an existing, widely adopted standard from this group that classifies the type of venue a signage face is in. The `signage-properties` standard incorporates and builds on this adopted standard.
 
 # Current Working Group
 
@@ -55,7 +53,6 @@ The `signage-properties` standard defines various taxonomies and field rules for
 | ![Vengo Labs logo](media/vengolabs.jpeg)               | **Mary Perrella**<br>VP, Sales & Marketing<br>[Vengo Labs](https://www.vengolabs.com)                                                                                                                                                                                                                                                                                                                               |                    |
 | ![YESCO logo](media/yesco.png)                         | **Lee Houghton**<br>Senior OOH Strategist<br>[YESCO](https://www.yesco.com)                                                                                                                                                                                                                                                                                                                                         |                    |
 | ![Screenverse logo](media/screenverse.jpeg)            | **David Weinfeld**<br>CEO<br>[Screenverse](https://www.screenversemedia.com)                                                                                                                                                                                                                                                                                                                                        |                    |
-
 
 *All other contributors, past and present, are credited on the respective works.*
 
